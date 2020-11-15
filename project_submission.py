@@ -27,6 +27,7 @@ if __name__ == '__main__':
         images[name].append(pytesseract.image_to_string(img).replace('-\n',''))
 
         if 'Mark' in images[name][1]:
+       #if 'Christopher' in images[name][1]:
 
             print('Results found in file',name)
 
